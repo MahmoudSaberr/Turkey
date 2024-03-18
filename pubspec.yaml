@@ -1,0 +1,96 @@
+name: pen
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  easy_localization:
+  bloc:
+  flutter_bloc:
+  lottie:
+  fluttertoast:
+  flutter_screenutil:
+  shared_preferences:
+  animated_text_kit:
+  size_config:
+  smooth_page_indicator:
+  image_picker:
+  uuid:
+  future_progress_dialog:
+  url_launcher:
+  cached_network_image:
+  flutter_svg:
+  shimmer:
+  material_tag_editor:
+  im_stepper:
+  clay_containers:
+  path:
+  awesome_dialog:
+  syncfusion_flutter_datagrid:
+  intl:
+  flutter_launcher_icons:
+  date_picker_timeline:
+  change_app_package_name:
+  timeline_tile:
+  firebase_analytics:
+  share_plus:
+  in_app_review:
+  giff_dialog:
+  font_awesome_flutter:
+  file_picker:
+  syncfusion_flutter_pdfviewer:
+  flutter_credit_card:
+  pdf:
+  path_provider:
+  flutter_inappwebview: 5.6.0
+  dio:
+  webview_flutter:
+  audioplayers: ^0.20.1
+  google_mobile_ads:
+  flutter_tts:
+  encrypt:
+  pointycastle:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icon.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/gifs/
+    - assets/animated_icons/
+
+  fonts:
+    - family: Janna
+      fonts:
+        - asset: assets/fonts/Janna-LT-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Janna-LT-Bold.ttf
+          weight: 700
+    - family: ArchivoNarrow
+      fonts:
+        - asset: assets/fonts/ArchivoNarrow-Regular.otf
+          weight: 400
+        - asset: assets/fonts/ArchivoNarrow-Bold.otf
+          weight: 700
